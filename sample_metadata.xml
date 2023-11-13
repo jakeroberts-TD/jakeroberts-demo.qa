@@ -1,0 +1,170 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="https://shib-idp-stage.uit.tufts.edu/idp/shibboleth">
+
+    <IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <Extensions>
+            <shibmd:Scope regexp="false">tufts.edu</shibmd:Scope>
+        </Extensions>
+
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIID6jCCAtICCQDXD3vNB01NfzANBgkqhkiG9w0BAQUFADCBtjELMAkGA1UEBhMC
+VVMxFjAUBgNVBAgMDU1hc3NhY2h1c2V0dHMxEzARBgNVBAcMClNvbWVydmlsbGUx
+GTAXBgNVBAoMEFR1ZnRzIFVuaXZlcnNpdHkxIjAgBgNVBAsMGVR1ZnRzIFRlY2hu
+b2xvZ3kgU2VydmljZXMxGDAWBgNVBAMMDyoudWl0LnR1ZnRzLmVkdTEhMB8GCSqG
+SIb3DQEJARYSZXJ5YXphMDFAdHVmdHMuZWR1MB4XDTE0MDkwOTE1NTQwOVoXDTI0
+MDkwNjE1NTQwOVowgbYxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1NYXNzYWNodXNl
+dHRzMRMwEQYDVQQHDApTb21lcnZpbGxlMRkwFwYDVQQKDBBUdWZ0cyBVbml2ZXJz
+aXR5MSIwIAYDVQQLDBlUdWZ0cyBUZWNobm9sb2d5IFNlcnZpY2VzMRgwFgYDVQQD
+DA8qLnVpdC50dWZ0cy5lZHUxITAfBgkqhkiG9w0BCQEWEmVyeWF6YTAxQHR1ZnRz
+LmVkdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMpJek2lPxVpqnVx
+ZRjRiel7W1ZnAypvY5y2b0IuUFcq/lygLeyXiBni69wmbLXkqzldTX5Npxh+ai32
+NxKZ0MAHfTcqScywz0dulRuFa5pOlad3RHwztqvnSlR/CpPIX3VkHLMDIcwntVNX
+jWKxKxNUVatkb9NIS5tPzB25VB2AEnuyZDqG57Ojxg8cqg/I6qN+Drr/J6CUp2PP
+M+nHlvxUkxg+zwmbH+qTmGtq0NgxbsfIEQg7Om2gS/FJx2TmfcFW8TXaWCcXFe+S
+07HHXqrECElgVNLQxX6OG/xHN0VsfNlmDBbiqa7P+UT9N6PsO8DuS8OZzZVyUsaW
+9O0ZcSkCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEARUB186jUFuwFLYhacvW71aq5
+jYcfGuoPwFlmPAVKMbkLxjYTvWcn14qz65l757lUCgzMWTSllN1Shzdo8E2xmFmb
+KEFkN2GiHxDpYYvlE7fQ22ZdD9oKksdlasyuk593z0E1loxt2ykkhv/koC/kVNMO
+UhbPGV3BqHf7QkBQHzclSAgBRCvu/Dk/mh/xsUWUGCiuS+0Ri5dL32dODNglZ3a7
+IcK7r/ey1hAgdmGfkTuKEEx9k3xxy/74oZHUW5hBRG7vvCN5wGAEr3NhfGbXSF99
+zFC8M7R0cYwd6LfTtXBwF5WmVMW8qY3COkxN1i/ne9jhFC/5TbcFTq5nXeaR9w==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEJjCCAo6gAwIBAgIUOEf42qs+sjQix434X8UcaJw00vswDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc2hpYi1pZHAtc3RhZ2UudWl0LnR1ZnRzLmVkdTAeFw0y
+MzAxMTMxNzQ1MzVaFw00MzAxMTMxNzQ1MzVaMCcxJTAjBgNVBAMMHHNoaWItaWRw
+LXN0YWdlLnVpdC50dWZ0cy5lZHUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQDFJuKtELltUI+eFNVni+mzUc8QSGKj/cQU9nYFc0klpnDMN64AMsHQpDnI
+Z4jlc41yYceYQ3Sr+bZsKpFSqrHR3o5oU/jFELcPJGT4a6dLrdy56rlrjFHztqDA
+bnw2dCSTukQxKrTbBfSxGLJG/BGoXus3v02CU2bTCIXvnZjIZYqw1DOFRu4y9ivu
+gEhr4u3H+c5nspw0J1Eq9EUNinaQpH1mncTqW0RXf+p/KNNhuFBcg78oGFncyHkQ
+YCq1U92LWnZEccjiNCQswvSMXrFwFeydiupsDIfX/llKZfshCoCRNMC0/pRZC6n5
+hh4fnuZdD8uVb2IqF704l1/hm2QQZTQhRxb6yLCBEyx63oaerLvIZKQZb8rLW9UY
+BieSrBlP/8TsHrrWEx+QMXv5V5949yBOFNAWUVPJ9ODV7p78RhsA04Ld5XNAFZzr
+X3d5rwoofffIvuzSxuelQo6lOMKs4wS3A11thP1QAgpnBPPznl7x3z0/BEXSKNEk
+bmGl+IkCAwEAAaNKMEgwHQYDVR0OBBYEFLNYLS6/h6skSYijWS7NEAeCVLJdMCcG
+A1UdEQQgMB6CHHNoaWItaWRwLXN0YWdlLnVpdC50dWZ0cy5lZHUwDQYJKoZIhvcN
+AQELBQADggGBAE6xNrpnXeDWLFRocTKL9mtIAMZUmINH1KdVBI3hJjPRymNj6kCV
+OlSqIVGAnT7Zi4rVdLZXDWRKu4Aw0bc7o8rV0wM3RHw69aDx1DGdJnQ7PnMbbpzw
++opl4CeLZ2xKXpCY7u1IZMYU6MLynqgEC2xag7MpU12X4t+SEfKOC1xjCpzZUuF0
+dgBwgxYOsb7OGfMpqSVVYnvTlfIg95kIomSn4ZW0mr1fhoPPJIctDNYScK+ypfVm
+EKwchOju+YsRw+ODnlOQQGIJmALmX2kp+vcrlVQO+eO3/jcKhjg0f5Nky0TYCTKL
+o8HBySLhN5KApy2E0Sx+wE6sDYxfeC/qlbA269fSJGVBQYmD8wKc7GI3FXBHCKoN
+QknHSHj+Kk3S3jWhgjtkZ4XkxPX83Q+sCpmiE1txsXP+08iRZ7o4hO2zTFXdc3A3
+ccBcjazsibgrqkzw0NbFd9oC/kdFpw0IFgrC0YuRaOmjjDoklvqqfVpxbz2SeXpZ
+GI2qGPJyREzgOA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>        
+
+        <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" 
+                                   Location="https://shib-idp-stage.uit.tufts.edu:8443/idp/profile/SAML1/SOAP/ArtifactResolution"
+                                   index="1"/>
+
+        <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+                                   Location="https://shib-idp-stage.uit.tufts.edu:8443/idp/profile/SAML2/SOAP/ArtifactResolution"
+                                   index="2"/>
+        
+        <NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+
+        <SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shib-idp-stage.uit.tufts.edu/idp/profile/Shibboleth/SSO"/>
+        
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib-idp-stage.uit.tufts.edu/idp/profile/SAML2/POST/SSO"/>
+
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib-idp-stage.uit.tufts.edu/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+        
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib-idp-stage.uit.tufts.edu/idp/profile/SAML2/Redirect/SSO"/>
+    </IDPSSODescriptor>
+
+    <AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <Extensions>
+            <shibmd:Scope regexp="false">tufts.edu</shibmd:Scope>
+        </Extensions>
+
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIID6jCCAtICCQDXD3vNB01NfzANBgkqhkiG9w0BAQUFADCBtjELMAkGA1UEBhMC
+VVMxFjAUBgNVBAgMDU1hc3NhY2h1c2V0dHMxEzARBgNVBAcMClNvbWVydmlsbGUx
+GTAXBgNVBAoMEFR1ZnRzIFVuaXZlcnNpdHkxIjAgBgNVBAsMGVR1ZnRzIFRlY2hu
+b2xvZ3kgU2VydmljZXMxGDAWBgNVBAMMDyoudWl0LnR1ZnRzLmVkdTEhMB8GCSqG
+SIb3DQEJARYSZXJ5YXphMDFAdHVmdHMuZWR1MB4XDTE0MDkwOTE1NTQwOVoXDTI0
+MDkwNjE1NTQwOVowgbYxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1NYXNzYWNodXNl
+dHRzMRMwEQYDVQQHDApTb21lcnZpbGxlMRkwFwYDVQQKDBBUdWZ0cyBVbml2ZXJz
+aXR5MSIwIAYDVQQLDBlUdWZ0cyBUZWNobm9sb2d5IFNlcnZpY2VzMRgwFgYDVQQD
+DA8qLnVpdC50dWZ0cy5lZHUxITAfBgkqhkiG9w0BCQEWEmVyeWF6YTAxQHR1ZnRz
+LmVkdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMpJek2lPxVpqnVx
+ZRjRiel7W1ZnAypvY5y2b0IuUFcq/lygLeyXiBni69wmbLXkqzldTX5Npxh+ai32
+NxKZ0MAHfTcqScywz0dulRuFa5pOlad3RHwztqvnSlR/CpPIX3VkHLMDIcwntVNX
+jWKxKxNUVatkb9NIS5tPzB25VB2AEnuyZDqG57Ojxg8cqg/I6qN+Drr/J6CUp2PP
+M+nHlvxUkxg+zwmbH+qTmGtq0NgxbsfIEQg7Om2gS/FJx2TmfcFW8TXaWCcXFe+S
+07HHXqrECElgVNLQxX6OG/xHN0VsfNlmDBbiqa7P+UT9N6PsO8DuS8OZzZVyUsaW
+9O0ZcSkCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEARUB186jUFuwFLYhacvW71aq5
+jYcfGuoPwFlmPAVKMbkLxjYTvWcn14qz65l757lUCgzMWTSllN1Shzdo8E2xmFmb
+KEFkN2GiHxDpYYvlE7fQ22ZdD9oKksdlasyuk593z0E1loxt2ykkhv/koC/kVNMO
+UhbPGV3BqHf7QkBQHzclSAgBRCvu/Dk/mh/xsUWUGCiuS+0Ri5dL32dODNglZ3a7
+IcK7r/ey1hAgdmGfkTuKEEx9k3xxy/74oZHUW5hBRG7vvCN5wGAEr3NhfGbXSF99
+zFC8M7R0cYwd6LfTtXBwF5WmVMW8qY3COkxN1i/ne9jhFC/5TbcFTq5nXeaR9w==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEJjCCAo6gAwIBAgIUOEf42qs+sjQix434X8UcaJw00vswDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc2hpYi1pZHAtc3RhZ2UudWl0LnR1ZnRzLmVkdTAeFw0y
+MzAxMTMxNzQ1MzVaFw00MzAxMTMxNzQ1MzVaMCcxJTAjBgNVBAMMHHNoaWItaWRw
+LXN0YWdlLnVpdC50dWZ0cy5lZHUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQDFJuKtELltUI+eFNVni+mzUc8QSGKj/cQU9nYFc0klpnDMN64AMsHQpDnI
+Z4jlc41yYceYQ3Sr+bZsKpFSqrHR3o5oU/jFELcPJGT4a6dLrdy56rlrjFHztqDA
+bnw2dCSTukQxKrTbBfSxGLJG/BGoXus3v02CU2bTCIXvnZjIZYqw1DOFRu4y9ivu
+gEhr4u3H+c5nspw0J1Eq9EUNinaQpH1mncTqW0RXf+p/KNNhuFBcg78oGFncyHkQ
+YCq1U92LWnZEccjiNCQswvSMXrFwFeydiupsDIfX/llKZfshCoCRNMC0/pRZC6n5
+hh4fnuZdD8uVb2IqF704l1/hm2QQZTQhRxb6yLCBEyx63oaerLvIZKQZb8rLW9UY
+BieSrBlP/8TsHrrWEx+QMXv5V5949yBOFNAWUVPJ9ODV7p78RhsA04Ld5XNAFZzr
+X3d5rwoofffIvuzSxuelQo6lOMKs4wS3A11thP1QAgpnBPPznl7x3z0/BEXSKNEk
+bmGl+IkCAwEAAaNKMEgwHQYDVR0OBBYEFLNYLS6/h6skSYijWS7NEAeCVLJdMCcG
+A1UdEQQgMB6CHHNoaWItaWRwLXN0YWdlLnVpdC50dWZ0cy5lZHUwDQYJKoZIhvcN
+AQELBQADggGBAE6xNrpnXeDWLFRocTKL9mtIAMZUmINH1KdVBI3hJjPRymNj6kCV
+OlSqIVGAnT7Zi4rVdLZXDWRKu4Aw0bc7o8rV0wM3RHw69aDx1DGdJnQ7PnMbbpzw
++opl4CeLZ2xKXpCY7u1IZMYU6MLynqgEC2xag7MpU12X4t+SEfKOC1xjCpzZUuF0
+dgBwgxYOsb7OGfMpqSVVYnvTlfIg95kIomSn4ZW0mr1fhoPPJIctDNYScK+ypfVm
+EKwchOju+YsRw+ODnlOQQGIJmALmX2kp+vcrlVQO+eO3/jcKhjg0f5Nky0TYCTKL
+o8HBySLhN5KApy2E0Sx+wE6sDYxfeC/qlbA269fSJGVBQYmD8wKc7GI3FXBHCKoN
+QknHSHj+Kk3S3jWhgjtkZ4XkxPX83Q+sCpmiE1txsXP+08iRZ7o4hO2zTFXdc3A3
+ccBcjazsibgrqkzw0NbFd9oC/kdFpw0IFgrC0YuRaOmjjDoklvqqfVpxbz2SeXpZ
+GI2qGPJyREzgOA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+
+        <AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding"
+                          Location="https://shib-idp-stage.uit.tufts.edu:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+        
+        <AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+                          Location="https://shib-idp-stage.uit.tufts.edu:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+        
+        <NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        
+    </AttributeAuthorityDescriptor>
+    
+</EntityDescriptor>
