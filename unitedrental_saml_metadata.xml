@@ -1,6 +1,5 @@
-
 <?xml version="1.0" encoding="UTF-8" ?>
-<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="I4f262d1c26f5a6fb" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sso.ur.com/talkdesk">
+<EntityDescriptor ID="I4f262d1c26f5a6fb" entityID="https://sso.ur.com/talkdesk" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
 	<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<KeyDescriptor>
 			<ds:KeyInfo>
@@ -9,14 +8,10 @@
 				</ds:X509Data>
 			</ds:KeyInfo>
 		</KeyDescriptor>
-		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.ur.com/saml/idp/profile/post/sls" ResponseLocation="https://sso.ur.com/saml/idp/profile/post/slr">
-		</SingleLogoutService>
-		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ur.com/saml/idp/profile/redirect/sls" ResponseLocation="https://sso.ur.com/saml/idp/profile/redirect/slr">
-		</SingleLogoutService>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.ur.com/saml/idp/profile/post/sls" ResponseLocation="https://sso.ur.com/saml/idp/profile/post/slr"/>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ur.com/saml/idp/profile/redirect/sls" ResponseLocation="https://sso.ur.com/saml/idp/profile/redirect/slr"/>
 		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
-		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.ur.com/saml/idp/profile/redirectorpost/sso">
-		</SingleSignOnService>
-		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ur.com/saml/idp/profile/redirectorpost/sso">
-		</SingleSignOnService>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.ur.com/saml/idp/profile/redirectorpost/sso"/>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ur.com/saml/idp/profile/redirectorpost/sso"/>
 	</IDPSSODescriptor>
 </EntityDescriptor>
